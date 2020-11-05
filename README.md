@@ -1,3 +1,6 @@
+# Notebook and Windows Compatible Branch of Google's BLEURT
+This is a branch that has a small modification to enable it to work with Jupyter Noteobooks in Windows.
+
 # BLEURT: a Transfer Learning-Based Metric for Natural Language Generation
 
 BLEURT is an evaluation metric for Natural Language Generation. It takes a pair of sentences as input, a *reference* and a *candidate*, and it returns a score that indicates to what extent the candidate is grammatical and conveys the mearning of the reference. It is comparable to [`sentence-BLEU`](https://en.wikipedia.org/wiki/BLEU) and [`BERTscore`](https://arxiv.org/abs/1904.09675).
