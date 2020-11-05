@@ -65,9 +65,9 @@ def _make_eager_predict_fn_from_checkpoint(checkpoint):
 
   def _predict_fn(input_dict):
     return bleurt_model_ops(
-        input_ids=tf.constant(input_dict["input_ids"]),
-        input_mask=tf.constant(input_dict["input_mask"]),
-        segment_ids=tf.constant(input_dict["segment_ids"])
+        input_ids=tf.constant(input_dict["input_ids"], dtype = tf.int64),
+        input_mask=tf.constant(input_dict["input_mask"], dtype = tf.int64),
+        segment_ids=tf.constant(input_dict["segment_ids"], dtype = tf.int64)
         )["predictions"].numpy()
 
   return _predict_fn
