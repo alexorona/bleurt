@@ -1,5 +1,5 @@
 # Notebook and Windows Compatible Branch of Google's BLEURT
-This is a branch that has a small modification to enable it to work with Jupyter Noteobooks in Windows.
+This is a branch that has a small modification to enable it to work with Jupyter Notebooks in Windows.
 
 # BLEURT: a Transfer Learning-Based Metric for Natural Language Generation
 
